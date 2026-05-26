@@ -36,6 +36,6 @@ import streamlit as st
 st.title("멀티미디어 테스트")
 
 
-gif_path = "C:/Users/user/OneDrive/Desktop/Business/새 폴더/img.gif"
+st.image("media/img.gif", caption="움직이는 이미지", width=600)
 st.image(gif_path, caption="움직이는 이미지", width=600)
 
