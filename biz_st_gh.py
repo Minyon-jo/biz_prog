@@ -35,7 +35,6 @@ import streamlit as st
 
 st.title("멀티미디어 테스트")
 
-
-st.image("media/img.gif", caption="움직이는 이미지", width=600)
-st.image(gif_path, caption="움직이는 이미지", width=600)
+# data2 폴더 안에 있는 img.gif 불러오기
+st.image("data2/img.gif", caption="움직이는 이미지", width=600)
 
