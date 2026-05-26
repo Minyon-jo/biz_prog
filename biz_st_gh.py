@@ -35,15 +35,7 @@ import streamlit as st
 
 st.title("멀티미디어 테스트")
 
-# 영상
-video_path = "C:/Users/user/OneDrive/Desktop/Business/새 폴더/mixkit-waterfall-in-forest-2213-hd-ready.mp4"
-st.video(video_path)
 
-# 오디오
-audio_path = "C:/Users/user/OneDrive/Desktop/Business/새 폴더/ikoliks_aj-acoustic-spring-mothers-day-music-320427.mp3"
-st.audio(audio_path)
-
-# 이미지
-img_path = "C:/Users/user/OneDrive/Desktop/Business/새 폴더/python.jpg"
-st.image(img_path, caption="파이썬 이미지", width=600)
+gif_path = "C:/Users/user/OneDrive/Desktop/Business/새 폴더/img.gif"
+st.image(gif_path, caption="움직이는 이미지", width=600)
 
