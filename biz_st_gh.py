@@ -37,5 +37,18 @@ st.title("멀티미디어 테스트")
 
 # data2 폴더 안에 있는 img.gif 불러오기
 st.image("data2/img.gif", caption="움직이는 이미지", width=600)
-st.image("media/python.jpg", caption="파이썬 이미지", width=600)
+
+import streamlit as st
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.linspace(0, 2 * np.pi, 200)
+y = np.sin(x)
+
+fig, ax = plt.subplots()
+ax.plot(x, y)
+
+# Streamlit에서 그래프 출력
+st.pyplot(fig)
+
 
