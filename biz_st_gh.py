@@ -37,4 +37,4 @@ st.title("멀티미디어 테스트")
 
 # data2 폴더 안에 있는 img.gif 불러오기
 st.image("data2/img.gif", caption="움직이는 이미지", width=600)
-
+st.image("data2/python.jpg", caption="파이썬 이미지", width=600)
